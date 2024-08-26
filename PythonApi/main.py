@@ -18,6 +18,8 @@ def create_user():
   data = request.get_json()
   return jsonify(data), 201
 
+# Update User
+# Delete User
 
 if __name__ == "__main__":
   app.run(debug=True)
