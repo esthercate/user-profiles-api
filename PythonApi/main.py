@@ -10,7 +10,6 @@ def get_user(user_id):
     "name": "Catherine",
     "email": "cate@example.com"
   }
-
   return jsonify(user_data), 200
 
 # Post request
